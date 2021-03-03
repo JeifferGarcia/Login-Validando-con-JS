@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  body
+  {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #1c8ef9;
+  }
+
+  .wrapper{
+    width: 100%;
+    padding: 1em;   
+  }
+
+  .login
+  {
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 370px;
+    padding: 55px;
+    
+  }
+
+  .login h2
+  {
+    text-align: center;
+  }
+
+  .login label{
+    font-weight: bold;
+  }
+
+  .from_input
+  {
+    width: 100%;
+    padding:13px 0;
+    border: 1px #b6b4b4 solid;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .from_submit{
+    color: #ffffff;
+    background-color: #167bff;
+    font-weight: bold;
+  }
+  .forgot_pass{
+    display: flex;
+    justify-content: flex-end;
+  }
+  main{
+    display: grid;
+  }
+</style>
+</head>
+<body>
+
+  <main class="wrapper">
+    <div class="login">
+      <h2>Sing In</h2>
+      
+      <form action="">
+        
+        <label for="email">Email Address</label> <br>
+        <input class="from_input" type="email" id="email" placeholder="Enter Email"> <br> <br>
+
+        <label for="password">Password</label> <br>
+        <input class="from_input" type="password"  id="password" placeholder="Enter Email"><br> 
+        <br>
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+        <br> <br>
+        <input class="from_input from_submit" type="submit" value="Submit">
+      </form>
+      <div class="forgot_pass">
+        <span> <small>Forgot <a href="">password?</a></small> </span>
+      </div>
+    </div>
+  </main>
+</body>
+
+<script>
+  
+</script>
+</html>
